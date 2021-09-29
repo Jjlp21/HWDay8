@@ -1,0 +1,29 @@
+class person{
+
+    constructor(fName,lName,age,email,contactNo,city,nationality)
+    {
+        this.fName=fName;
+        this.lName=lName;
+        this.age=age;
+        this.email=email;
+        this.contactNo=contactNo;
+        this.city=city;
+        this.nationality=nationality;
+    }
+
+    print(){
+        console.log( "First Name:"+   this.fName +", "+
+                     "Last Name:"+  this.lName +", "+
+                     "Age:"+   this.age +", "+
+                     "Email:"+   this.email +", "+
+                     "Contact No.:"+  this.contactNo +", "+
+                     "City:"+  this.city +", "+
+                     "Nationality:"+  this.nationality
+                    );
+    }
+
+}
+
+let person1= new person ("Joseph","Paul",23,"josephjohnlouispaul@gmail.com",1012169775,"NeyYork","American");
+
+person1.print();
